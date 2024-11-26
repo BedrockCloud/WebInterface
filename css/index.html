@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Access Denied</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: #00ff3f;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    #typed {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  </style>
+</head>
+<body>
+<div id="typed-strings">
+  <p>root@joemama:~# Access denied</p>
+  <p>root@ACP:~# You can't access this site.</p>
+  <p>root@server:~# Please contact the admin.</p>
+</div>
+<span id="typed"></span>
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1000,
+    startDelay: 500,
+    loop: true
+  });
+</script>
+</body>
+</html>
